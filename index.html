@@ -18,8 +18,10 @@
         }
 
         #header img {
+        margin:15px;
             max-width: 25%;
             height: auto;
+            border-radius: 50%; /* Köşe yuvarlama */
         }
 
         #main {
@@ -27,6 +29,8 @@
             margin: 0 auto;
             background-color: #ffffff;
             padding: 20px;
+            border-radius: 10px; /* Köşe yuvarlama */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Gölge efekti */
         }
 
         #connect {
@@ -49,6 +53,25 @@
             }
         }
 
+        /* Animasyon */
+        #header img:hover {
+            transform: scale(1.1); /* Büyüme animasyonu */
+            transition: transform 0.3s ease-in-out;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px; /* Köşe yuvarlama */
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -77,6 +100,7 @@
                 <img src="https://img.shields.io/twitter/follow/mehmetalidev?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917" alt="Twitter">
             </a>
         </div>
+
     </div>
 </body>
 </html>
