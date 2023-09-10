@@ -143,6 +143,18 @@
          a.link:hover {
          color: #3273dc;
          }
+         .visitor-count-container {
+         text-align: center;
+         font-size: 1.0em;
+         margin-top: 20px;
+         }
+         .website-counter {
+         font-weight: bold;
+         color: #3273dc;
+         }
+         .visitor-count-container span {
+         color: white;
+         }
          .beacon {
          position: absolute;
          -webkit-animation: beacon 2s ease infinite, tr 2s ease-out infinite;
@@ -205,6 +217,11 @@
                   <i class="fas fa-envelope-open"></i> e-Mail
                   </a>
                </div>
+            </div>
+            <div class="visitor-count-container">
+               <span>Bu siteye giren</span>
+               <span class="website-counter"></span>
+               <span>. kişisiniz. 👋🏻</span>
             </div>
             <a href="https://www.instagram.com/mehmetalidemri" class="block link">
                <div class="image-float instagram">
@@ -305,5 +322,19 @@
             </div>
          </div>
       </div>
+      <script>
+         var counterContainer = document.querySelector(".website-counter");
+         var visitCount = localStorage.getItem("page_view");
+         
+         if (visitCount) {
+             visitCount = Number(visitCount) + 1;
+             localStorage.setItem("page_view", visitCount);
+         } else {
+             visitCount = 1;
+             localStorage.setItem("page_view", 1);
+         }
+         
+         counterContainer.innerHTML = visitCount;
+      </script>
    </body>
 </html>
