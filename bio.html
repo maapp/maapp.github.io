@@ -146,14 +146,7 @@
          .visitor-count-container {
          text-align: center;
          font-size: 1.0em;
-         margin-top: 20px;
-         }
-         .website-counter {
-         font-weight: bold;
-         color: #3273dc;
-         }
-         .visitor-count-container span {
-         color: white;
+         margin-top: 30px;
          }
          .beacon {
          position: absolute;
@@ -219,9 +212,7 @@
                </div>
             </div>
             <div class="visitor-count-container">
-               <span>Bu siteye giren</span>
-               <span class="website-counter"></span>
-               <span>. kişisiniz. 👋🏻</span>
+               <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fmaapp.github.io%2Fbio"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fmaapp.github.io%2Fbio&label=Siteyi%20ziyaret%20eden%20ki%C5%9Fi%20say%C4%B1s%C4%B1&labelColor=%23697689&countColor=%232ccce4&labelStyle=none" /></a>
             </div>
             <a href="https://www.instagram.com/mehmetalidemri" class="block link">
                <div class="image-float instagram">
@@ -322,19 +313,5 @@
             </div>
          </div>
       </div>
-      <script>
-         var counterContainer = document.querySelector(".website-counter");
-         var visitCount = localStorage.getItem("page_view");
-         
-         if (visitCount) {
-             visitCount = Number(visitCount) + 1;
-             localStorage.setItem("page_view", visitCount);
-         } else {
-             visitCount = 1;
-             localStorage.setItem("page_view", 1);
-         }
-         
-         counterContainer.innerHTML = visitCount;
-      </script>
    </body>
 </html>
