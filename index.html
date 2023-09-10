@@ -75,13 +75,6 @@
          font-size: 1.0em;
          margin-top: 20px;
          }
-         .website-counter {
-         font-weight: bold;
-         color: #3273dc;
-         }
-         .visitor-count-container span {
-         color: black;
-         }
       </style>
    </head>
    <body>
@@ -93,9 +86,7 @@
          <p>I'm an iOS developer with a passion for crafting exceptional mobile experiences. My journey in the world of iOS development has been fueled by creativity and a strong desire to build user-friendly apps.</p>
          <p>📫 Feel free to reach out to me at <a href="mailto:wdemir@proton.me">wdemir@proton.me</a>.</p>
          <div class="visitor-count-container">
-            <span>You are the</span>
-            <span class="website-counter"></span>
-            <span>. person to visit this site. 👏🏼</span>
+           <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fmaapp.github.io%2F"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fmaapp.github.io%2F&label=Visitor&labelColor=%23d9e3f0&countColor=%23697689&labelStyle=none" /></a>
          </div>
          <div class="connect">
             <a href="https://github.com/mehmetalidemir">
@@ -112,18 +103,5 @@
             </a>
          </div>
       </div>
- <script>
-         var counterContainer = document.querySelector(".website-counter");
-
-         // Fetch visitor count from the server
-         fetch("counter.php")
-            .then((response) => response.text())
-            .then((count) => {
-               counterContainer.innerHTML = count;
-            })
-            .catch((error) => {
-               console.error("Error fetching visitor count:", error);
-            });
-      </script>
    </body>
 </html>
