@@ -112,19 +112,18 @@
             </a>
          </div>
       </div>
-      <script>
+     <script>
          var counterContainer = document.querySelector(".website-counter");
-         var visitCount = localStorage.getItem("page_view");
-         
-         if (visitCount) {
-             visitCount = Number(visitCount) + 1;
-             localStorage.setItem("page_view", visitCount);
-         } else {
-             visitCount = 1;
-             localStorage.setItem("page_view", 1);
-         }
-         
-         counterContainer.innerHTML = visitCount;
+
+         // Fetch visitor count from the server
+         fetch("counter.php")
+            .then((response) => response.text())
+            .then((count) => {
+               counterContainer.innerHTML = count;
+            })
+            .catch((error) => {
+               console.error("Error fetching visitor count:", error);
+            });
       </script>
    </body>
 </html>
