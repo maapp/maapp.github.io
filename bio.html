@@ -7,211 +7,7 @@
     <title>Links</title>
     <meta name="description" content="Links to useful pages for my followers" />
     <script src="https://kit.fontawesome.com/9b3bbb804d.js" crossorigin="anonymous"></script>
-    <style>
-        h1, h2, h3, h4, h5 {
-            color: white;
-        }
-
-        blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            color: #7f8d9e;
-            font-size: 21px;
-            font-weight: 400;
-            line-height: 1.58;
-            -webkit-font-smoothing: antialiased;
-            text-rendering: optimizeLegibility;
-            background-color: #191b21;
-            font-family: sans-serif;
-            display: block;
-        }
-
-        a {
-            color: #3273dc;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #3273dc;
-        }
-
-        .outer {
-            text-align: center;
-            margin: 0 auto;
-        }
-
-        .content {
-            max-width: 1000px;
-            min-height: 90vh;
-            margin: 56px auto;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        .block {
-            text-align: center;
-            background-color: #2d2f39;
-            padding: 30px;
-        }
-
-        .profile {
-            margin-top: -60px;
-        }
-
-        .profile h1 {
-            font-size: 1.6em;
-        }
-
-        .profile img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            margin: 0 1em;
-        }
-
-        .profile .location {
-            margin-top: 10px;
-            font-size: 0.9em;
-        }
-
-        .profile .bio {
-            color: white;
-            margin-top: 10px;
-            font-size: 0.9em;
-        }
-
-        .links {
-            margin-top: 25px;
-        }
-
-        .links .contactbutton {
-            background-color: #2d2f39;
-            color: #7f8d9e;
-            border: #7f8d9e 1px solid;
-            cursor: pointer;
-            justify-content: center;
-            padding-bottom: 0.5em;
-            padding-left: 0.75em;
-            padding-right: 0.75em;
-            padding-top: 0.5em;
-            text-align: center;
-            white-space: nowrap;
-        }
-
-        .links .contactbutton:hover {
-            color: white;
-            border: white 1px solid;
-        }
-
-        .link {
-            position: relative;
-            margin-top: 30px;
-            margin-left: 10px;
-            text-align: left;
-            padding: 20px;
-            padding-left: 70px;
-            display: block;
-            font-size: 0.8em;
-        }
-
-        .link h2 {
-            font-size: 0.9em;
-            margin: 0px;
-            line-height: 1em;
-        }
-
-        .link .image-float {
-            position: absolute;
-            width: 60px;
-            height: 60px;
-            left: -10px;
-            margin-top: -12px;
-        }
-
-        .link .image-float .image img {
-            width: 60px;
-            height: 60px;
-        }
-
-        .link .arrow {
-            position: absolute;
-            height: 100%;
-            right: 20px;
-            top: 0px;
-            padding-top: 28px;
-        }
-
-        .link > .arrow, .link > .image-float {
-            -webkit-transition: transform 0.3s ease;
-            transition: transform 0.3s ease;
-        }
-
-        .link:hover .arrow {
-            transform: translateX(50%);
-        }
-
-        .link:hover .image-float {
-            transform: translateY(-5%);
-        }
-
-        a.link {
-            color: #7f8d9e;
-            cursor: pointer;
-            text-decoration: none;
-            display: block;
-        }
-
-        a.link:hover {
-            color: #3273dc;
-        }
-
-        .beacon {
-            position: absolute;
-            -webkit-animation: beacon 2s ease infinite, tr 2s ease-out infinite;
-            animation: beacon 2s ease infinite, tr 2s ease-out infinite;
-            opacity: 0.85;
-            width: 60px;
-            height: 60px;
-            border-radius: 3px;
-        }
-
-        @-webkit-keyframes beacon {
-            from {
-                opacity: 0.85;
-            }
-            to {
-                opacity: 0;
-            }
-        }
-        @keyframes beacon {
-            from {
-                opacity: 0.85;
-            }
-            to {
-                opacity: 0;
-            }
-        }
-        @-webkit-keyframes tr {
-            from {
-                transform: scaleX(1) scaleY(1);
-            }
-            to {
-                transform: scaleX(1.5) scaleY(1.5);
-            }
-        }
-        @keyframes tr {
-            from {
-                transform: scaleX(1) scaleY(1);
-            }
-            to {
-                transform: scaleX(1.5) scaleY(1.5);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="outer">
@@ -224,12 +20,12 @@
                         <i class="fas fa-map-marker-alt"></i> Turkey
                     </div>
                     <div class="bio">
-                        <div>🌍 İşinize Yarayacak Websitelerini Paylaşıyorum</div>
+                        <div>🌍 İşinize Yarayacak Websitelerini ve Uygulamaları Paylaşıyorum</div>
                     </div>
                 </div>
                 <div class="links">
                     <a href="mailto:mehmetalidemir99@gmail.com" class="contactbutton">
-                        <i class="fas fa-envelope-open"></i> Email
+                        <i class="fas fa-envelope-open"></i> e-Mail
                     </a>
                 </div>
             </div>
@@ -297,7 +93,44 @@
                     <i class="fas fa-arrow-right"></i>
                 </div>
             </a>
-
+            
+        </div>
+    </div>
+    <div class="outer">
+        <div class="content">
+            <div class="block">
+                <h2>Ürün Önerileri</h2>
+                <a href="https://ty.gl/90kpghjoyg" class="block link">
+                    <div class="image-float instagram">
+                        <div class="beacon instagram"></div>
+                        <div class="image">
+                            <img src="https://i.imgur.com/18Yg4Mw.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Klavyem</h2>
+                        <div>@Rampage</div>
+                    </div>
+                    <div class="arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+                <a href="https://ty.gl/h0e5zm9u5n" class="block link">
+                    <div class="image-float instagram">
+                        <div class="beacon instagram"></div>
+                        <div class="image">
+                            <img src="https://i.imgur.com/twc3FNA.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Kaydettiklerim</h2>
+                        <div>@Trendyol</div>
+                    </div>
+                    <div class="arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </body>
