@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Apps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .category {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .category h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .app {
+            text-align: center;
+        }
+
+        .app img {
+            max-width: 100px;
+            border-radius: 10px;
+        }
+
+        .app p {
+            margin: 5px 0;
+        }
+
+        .app button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Apps</h1>
+    </header>
+    <div class="category">
+        <h2>iPad & iPhone</h2>
+        <div class="bento-grid">
+            <div class="app">
+                <img src="https://i.imgur.com/cgSu765.png" alt="LoveLingo: AI Girlfriend">
+                <p>LoveLingo: AI Girlfriend - A virtual companion for your iOS devices.</p>
+                <button>Download</button>
+            </div>
+            <div class="app">
+                <img src="https://i.imgur.com/VghELLm.png" alt="Coffeem Master Menu">
+                <p>Coffeem Master Menu - Discover the finest coffee recipes on your iPhone.</p>
+                <button>Download</button>
+            </div>
+            <div class="app">
+                <img src="https://i.imgur.com/oYl2UOc.pngg" alt="Animal Sound Safari">
+                <p>Animal Sound Safari - Learn animal sounds with this fun iOS app for kids.</p>
+                <button>Download</button>
+            </div>
+            <div class="app">
+                <img src="https://i.imgur.com/p7Hj3Jo.pngg" alt="Valo Crosshair Pro">
+                <p>Valo Crosshair Pro - Precision crosshair for mobile gaming on iOS devices.</p>
+                <button>Download</button>
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <h2>iPhone Apps</h2>
+        <div class="bento-grid">
+            <div class="app">
+                <img src="https://i.imgur.com/LuxLqwo.png" alt="Dynamisland Wallpapers">
+                <p>Dynamisland Wallpapers - Stunning wallpapers for your iPhone screen.</p>
+                <button>Download</button>
+            </div>
+            <div class="app">
+                <img src="https://i.imgur.com/obm1mwu.png" alt="Wallpapers for Depth Effect">
+                <p>Wallpapers for Depth Effect - Create depth effect wallpapers for your iPhone.</p>
+                <button>Download</button>
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <h2>Android Apps</h2>
+        <div class="bento-grid">
+            <div class="app">
+                <img src="https://i.imgur.com/l55UwxP.png" alt="Valo Crosshair">
+                <p>Valo Crosshair - Customize your crosshair for mobile gaming on Android.</p>
+                <button>Download</button>
+            </div>
+            <div class="app">
+                <img src="https://i.imgur.com/sY1lbFL.png" alt="Profile Picture Frame Maker">
+                <p>Profile Picture Frame Maker - Design unique frames for your profile pictures.</p>
+                <button>Download</button>
+            </div>
+            <div class="app">
+                <img src="https://i.imgur.com/Wt0shXC.png" alt="Useful Apps">
+                <p>Useful Apps - A collection of handy utility apps for your Android device.</p>
+                <button>Download</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
