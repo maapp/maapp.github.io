@@ -73,11 +73,53 @@
         .visitor-count-container a {
             text-decoration: none;
         }
+        .bento-menu {
+    text-align: right;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.bento-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bento-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.bento-menu ul li:last-child {
+    margin-right: 20;
+}
+
+.bento-menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.bento-menu a:hover {
+    color: #2ccce4;
+}
+
     </style>
 </head>
 <body>
-    <header>
-        <h1>My Apps</h1>
+
+      <header>
+   
+        <nav class="bento-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#apps">Apps</a></li>
+            </ul>
+            
+        </nav>
+             <h1>My Apps</h1>
     </header>
     <div class="category">
         <h2>iPad & iPhone</h2>
