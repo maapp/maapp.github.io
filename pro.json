@@ -5,7 +5,7 @@
       "crosshairler": [
         {
           "isim": "TrollCrosshair1",
-          "imageCross": "lib/images/troll_crosshair_1.png",
+          "imageCross": "images/troll1.png",
           "crosshairColor": "Rainbow",
           "outlines": "On",
           "outlineOpacity": 2.0,
