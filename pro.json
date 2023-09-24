@@ -61,8 +61,8 @@
       "kategoriAdi": "Pro",
       "crosshairler": [
         {
-          "isim": "ProCrosshair1",
-          "imageCross": "lib/images/pro_crosshair_1.png",
+          "isim": "Tenz",
+          "imageCross": "https://i.imgur.com/OlMrrXk.png",
           "crosshairColor": "Green",
           "outlines": "On",
           "outlineOpacity": 1.5,
