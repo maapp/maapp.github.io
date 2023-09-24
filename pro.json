@@ -31,7 +31,7 @@
         },
         {
           "isim": "TrollCrosshair2",
-          "imageCross": "lib/images/troll_crosshair_2.png",
+          "imageCross": "https://raw.githubusercontent.com/maapp/maapp.github.io/main/images/troll2.png,
           "crosshairColor": "Pink",
           "outlines": "Off",
           "outlineOpacity": 1.0,
