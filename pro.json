@@ -5,7 +5,7 @@
       "crosshairler": [
         {
           "isim": "TrollCrosshair1",
-          "imageCross": "https://raw.githubusercontent.com/maapp/maapp.github.io/main/images/troll1.png",
+          "imageCross": "https://i.imgur.com/HwtIevO.png",
           "crosshairColor": "Rainbow",
           "outlines": "On",
           "outlineOpacity": 2.0,
@@ -31,7 +31,7 @@
         },
         {
           "isim": "TrollCrosshair2",
-          "imageCross": "https://i.imgur.com/AGACO7j.png",
+          "imageCross": "https://i.imgur.com/0G2uzkC.png",
           "crosshairColor": "Pink",
           "outlines": "Off",
           "outlineOpacity": 1.0,
